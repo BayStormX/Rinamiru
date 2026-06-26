@@ -237,3 +237,31 @@ body {
     white-space: normal;
   }
 }
+@media (max-width: 480px) {
+  .card {
+    max-width: 300px;
+    padding: 14px 12px;
+    border-radius: 16px;
+  }
+
+  .avatar {
+    width: 56px;
+    height: 56px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .pay-row {
+    padding: 8px 10px;
+  }
+
+  .pay-row-label {
+    font-size: 13px;
+  }
+
+  .footer {
+    font-size: 11px;
+  }
+}
